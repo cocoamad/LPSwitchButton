@@ -35,7 +35,7 @@ also you can set image for LPSwitchButton, just like this.
 [switch setOnImage: [NSImage imageNamed: @"2.png"]];
 [switch setPointImage: [NSImage imageNamed: @"3.png"]];
 ````
-ths.
+thx.
 coocamad.
 
 
