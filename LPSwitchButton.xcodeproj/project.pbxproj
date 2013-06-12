@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		BC499DC81768A84D008E3E0E /* application-shot.png in Resources */ = {isa = PBXBuildFile; fileRef = BC499DC71768A84D008E3E0E /* application-shot.png */; };
 		BC6D0F2317683FA90030CD28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D0F2217683FA90030CD28 /* Cocoa.framework */; };
 		BC6D0F2D17683FA90030CD28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F2B17683FA90030CD28 /* InfoPlist.strings */; };
 		BC6D0F2F17683FA90030CD28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6D0F2E17683FA90030CD28 /* main.m */; };
@@ -22,6 +23,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		BC499DC71768A84D008E3E0E /* application-shot.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "application-shot.png"; sourceTree = "<group>"; };
 		BC6D0F1F17683FA90030CD28 /* LPSwitchButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSwitchButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BC6D0F2217683FA90030CD28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		BC6D0F2517683FA90030CD28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -103,6 +105,7 @@
 				BC6D0F3517683FA90030CD28 /* AppDelegate.m */,
 				BC6D0F4117683FFB0030CD28 /* LPSwitchButton.h */,
 				BC6D0F4217683FFB0030CD28 /* LPSwitchButton.m */,
+				BC499DC71768A84D008E3E0E /* application-shot.png */,
 				BC6D0F49176866330030CD28 /* 1.png */,
 				BC6D0F4A176866330030CD28 /* 2.png */,
 				BC6D0F4B176866330030CD28 /* 3.png */,
@@ -181,6 +184,7 @@
 				BC6D0F4C176866330030CD28 /* 1.png in Resources */,
 				BC6D0F4D176866330030CD28 /* 2.png in Resources */,
 				BC6D0F4E176866330030CD28 /* 3.png in Resources */,
+				BC499DC81768A84D008E3E0E /* application-shot.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -327,6 +331,7 @@
 				BC6D0F3E17683FA90030CD28 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
