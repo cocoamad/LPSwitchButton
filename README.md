@@ -3,7 +3,7 @@ LPSwitchButton
 
 ### What is LPSwitchButton ?
 LPSwitchButton is a switch control for cocoa just like UISwitch in iOS.
-
+![LPSwitchButton](http://ww2.sinaimg.cn/large/6cb9ee11jw1e5lowgq662j20gi0ds0t5.jpg)
 ### How to use LPSwitchButton ?
 LPSwitchButton has two type. 
 - KLPSwitchButtonTypeRound 
