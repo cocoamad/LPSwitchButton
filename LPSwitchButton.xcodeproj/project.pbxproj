@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BC6D0F2317683FA90030CD28 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D0F2217683FA90030CD28 /* Cocoa.framework */; };
+		BC6D0F2D17683FA90030CD28 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F2B17683FA90030CD28 /* InfoPlist.strings */; };
+		BC6D0F2F17683FA90030CD28 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6D0F2E17683FA90030CD28 /* main.m */; };
+		BC6D0F3317683FA90030CD28 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F3117683FA90030CD28 /* Credits.rtf */; };
+		BC6D0F3617683FA90030CD28 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6D0F3517683FA90030CD28 /* AppDelegate.m */; };
+		BC6D0F3917683FA90030CD28 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F3717683FA90030CD28 /* MainMenu.xib */; };
+		BC6D0F4017683FCF0030CD28 /* Quartz.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D0F3F17683FCF0030CD28 /* Quartz.framework */; };
+		BC6D0F4317683FFB0030CD28 /* LPSwitchButton.m in Sources */ = {isa = PBXBuildFile; fileRef = BC6D0F4217683FFB0030CD28 /* LPSwitchButton.m */; };
+		BC6D0F45176841310030CD28 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BC6D0F44176841310030CD28 /* QuartzCore.framework */; };
+		BC6D0F4C176866330030CD28 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F49176866330030CD28 /* 1.png */; };
+		BC6D0F4D176866330030CD28 /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F4A176866330030CD28 /* 2.png */; };
+		BC6D0F4E176866330030CD28 /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = BC6D0F4B176866330030CD28 /* 3.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BC6D0F1F17683FA90030CD28 /* LPSwitchButton.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LPSwitchButton.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC6D0F2217683FA90030CD28 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		BC6D0F2517683FA90030CD28 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		BC6D0F2617683FA90030CD28 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		BC6D0F2717683FA90030CD28 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		BC6D0F2A17683FA90030CD28 /* LPSwitchButton-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "LPSwitchButton-Info.plist"; sourceTree = "<group>"; };
+		BC6D0F2C17683FA90030CD28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		BC6D0F2E17683FA90030CD28 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC6D0F3017683FA90030CD28 /* LPSwitchButton-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LPSwitchButton-Prefix.pch"; sourceTree = "<group>"; };
+		BC6D0F3217683FA90030CD28 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		BC6D0F3417683FA90030CD28 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC6D0F3517683FA90030CD28 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC6D0F3817683FA90030CD28 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		BC6D0F3F17683FCF0030CD28 /* Quartz.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quartz.framework; path = System/Library/Frameworks/Quartz.framework; sourceTree = SDKROOT; };
+		BC6D0F4117683FFB0030CD28 /* LPSwitchButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LPSwitchButton.h; sourceTree = "<group>"; };
+		BC6D0F4217683FFB0030CD28 /* LPSwitchButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LPSwitchButton.m; sourceTree = "<group>"; };
+		BC6D0F44176841310030CD28 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		BC6D0F49176866330030CD28 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		BC6D0F4A176866330030CD28 /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2.png; sourceTree = "<group>"; };
+		BC6D0F4B176866330030CD28 /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC6D0F1C17683FA90030CD28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6D0F45176841310030CD28 /* QuartzCore.framework in Frameworks */,
+				BC6D0F4017683FCF0030CD28 /* Quartz.framework in Frameworks */,
+				BC6D0F2317683FA90030CD28 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BC6D0F1617683FA80030CD28 = {
+			isa = PBXGroup;
+			children = (
+				BC6D0F44176841310030CD28 /* QuartzCore.framework */,
+				BC6D0F3F17683FCF0030CD28 /* Quartz.framework */,
+				BC6D0F2817683FA90030CD28 /* LPSwitchButton */,
+				BC6D0F2117683FA90030CD28 /* Frameworks */,
+				BC6D0F2017683FA90030CD28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BC6D0F2017683FA90030CD28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D0F1F17683FA90030CD28 /* LPSwitchButton.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC6D0F2117683FA90030CD28 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D0F2217683FA90030CD28 /* Cocoa.framework */,
+				BC6D0F2417683FA90030CD28 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BC6D0F2417683FA90030CD28 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D0F2517683FA90030CD28 /* AppKit.framework */,
+				BC6D0F2617683FA90030CD28 /* CoreData.framework */,
+				BC6D0F2717683FA90030CD28 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		BC6D0F2817683FA90030CD28 /* LPSwitchButton */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D0F3417683FA90030CD28 /* AppDelegate.h */,
+				BC6D0F3517683FA90030CD28 /* AppDelegate.m */,
+				BC6D0F4117683FFB0030CD28 /* LPSwitchButton.h */,
+				BC6D0F4217683FFB0030CD28 /* LPSwitchButton.m */,
+				BC6D0F49176866330030CD28 /* 1.png */,
+				BC6D0F4A176866330030CD28 /* 2.png */,
+				BC6D0F4B176866330030CD28 /* 3.png */,
+				BC6D0F3717683FA90030CD28 /* MainMenu.xib */,
+				BC6D0F2917683FA90030CD28 /* Supporting Files */,
+			);
+			path = LPSwitchButton;
+			sourceTree = "<group>";
+		};
+		BC6D0F2917683FA90030CD28 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				BC6D0F2A17683FA90030CD28 /* LPSwitchButton-Info.plist */,
+				BC6D0F2B17683FA90030CD28 /* InfoPlist.strings */,
+				BC6D0F2E17683FA90030CD28 /* main.m */,
+				BC6D0F3017683FA90030CD28 /* LPSwitchButton-Prefix.pch */,
+				BC6D0F3117683FA90030CD28 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC6D0F1E17683FA90030CD28 /* LPSwitchButton */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC6D0F3C17683FA90030CD28 /* Build configuration list for PBXNativeTarget "LPSwitchButton" */;
+			buildPhases = (
+				BC6D0F1B17683FA90030CD28 /* Sources */,
+				BC6D0F1C17683FA90030CD28 /* Frameworks */,
+				BC6D0F1D17683FA90030CD28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LPSwitchButton;
+			productName = LPSwitchButton;
+			productReference = BC6D0F1F17683FA90030CD28 /* LPSwitchButton.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC6D0F1717683FA80030CD28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = Penny;
+			};
+			buildConfigurationList = BC6D0F1A17683FA80030CD28 /* Build configuration list for PBXProject "LPSwitchButton" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BC6D0F1617683FA80030CD28;
+			productRefGroup = BC6D0F2017683FA90030CD28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC6D0F1E17683FA90030CD28 /* LPSwitchButton */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC6D0F1D17683FA90030CD28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6D0F2D17683FA90030CD28 /* InfoPlist.strings in Resources */,
+				BC6D0F3317683FA90030CD28 /* Credits.rtf in Resources */,
+				BC6D0F3917683FA90030CD28 /* MainMenu.xib in Resources */,
+				BC6D0F4C176866330030CD28 /* 1.png in Resources */,
+				BC6D0F4D176866330030CD28 /* 2.png in Resources */,
+				BC6D0F4E176866330030CD28 /* 3.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC6D0F1B17683FA90030CD28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC6D0F2F17683FA90030CD28 /* main.m in Sources */,
+				BC6D0F3617683FA90030CD28 /* AppDelegate.m in Sources */,
+				BC6D0F4317683FFB0030CD28 /* LPSwitchButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC6D0F2B17683FA90030CD28 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6D0F2C17683FA90030CD28 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		BC6D0F3117683FA90030CD28 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6D0F3217683FA90030CD28 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		BC6D0F3717683FA90030CD28 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC6D0F3817683FA90030CD28 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC6D0F3A17683FA90030CD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BC6D0F3B17683FA90030CD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BC6D0F3D17683FA90030CD28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSwitchButton/LPSwitchButton-Prefix.pch";
+				INFOPLIST_FILE = "LPSwitchButton/LPSwitchButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		BC6D0F3E17683FA90030CD28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "LPSwitchButton/LPSwitchButton-Prefix.pch";
+				INFOPLIST_FILE = "LPSwitchButton/LPSwitchButton-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC6D0F1A17683FA80030CD28 /* Build configuration list for PBXProject "LPSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6D0F3A17683FA90030CD28 /* Debug */,
+				BC6D0F3B17683FA90030CD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC6D0F3C17683FA90030CD28 /* Build configuration list for PBXNativeTarget "LPSwitchButton" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC6D0F3D17683FA90030CD28 /* Debug */,
+				BC6D0F3E17683FA90030CD28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC6D0F1717683FA80030CD28 /* Project object */;
+}
