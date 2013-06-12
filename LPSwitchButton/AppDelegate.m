@@ -20,8 +20,6 @@
 {
     // Insert code here to initialize your application
     LPSwitchButton *btn = [[LPSwitchButton alloc] initWithFrame: NSMakeRect(150, 250, 70, 30)];
-
-    
     [btn setType: kLPSwitchButtonTypeSquare];
     [btn setTintColor: [NSColor colorWithCalibratedRed: 127 * 1.0 / 255  green: 140 * 1.0 / 255 blue: 141 * 1.0 / 255 alpha: 1]];
     [btn setThumbTintColor: [NSColor colorWithCalibratedRed: 231 * 1.0 / 255 green: 76 * 1.0 / 255 blue: 60 * 1.0 / 255 alpha: 1]];

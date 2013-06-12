@@ -61,6 +61,18 @@
 
 - (void)dealloc
 {
+    self.onImage = nil;
+    self.offImage = nil;
+    self.pointImage = nil;
+    
+    self.thumbTintColor = nil;
+    self.tintColor = nil;
+    self.onTintColor = nil;
+    
+    self.pointLayer = nil;
+    self.indicationLayer = nil;
+    self.backgroundLayer = nil;
+    
     [super dealloc];
 }
 
