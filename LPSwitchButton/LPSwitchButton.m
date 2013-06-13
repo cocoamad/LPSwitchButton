@@ -168,6 +168,14 @@
     }
 }
 
+- (void)setState:(BOOL)state
+{
+    if (_state != state) {
+        _state = state;
+        [self _setState: _state animated: NO];
+    }
+}
+
 #pragma mark Private Method
 - (CGRect)_indicationRect
 {
